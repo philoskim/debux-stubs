@@ -1,0 +1,6 @@
+# debux-stubs
+# Debux
+:source-language: clojure
+
+`debux-stubs` library is the production version of `debux` (https://github.com/philoskim/debux) library.
+
