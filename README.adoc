@@ -1,6 +1,34 @@
 # debux-stubs
 # Debux
 :source-language: clojure
+:sectnums:
 
-`debux-stubs` library is the production version of `debux` (https://github.com/philoskim/debux) library.
+* `debux-stubs` library is the production version of `debux`
+(link:https://github.com/philoskim/debux[]) library.
 
+* Refer to link:https://github.com/philoskim/debux#two-libraries[Two Libraries] section
+  for the relationship between `debux` and `debux-stubs` libraries.
+
+
+## Prerequisites
+
+* clojure 1.8.0 or later
+* clojurescript 1.9.854 or later
+
+
+## Installation
+
+* To include debux in your project for production, simply add the following to your
+  *project.clj* dependencies.
+
+[listing]
+----
+[philoskim/debux-stubs "0.4.5"]
+----
+
+
+## License
+
+Copyright © 2018 Young Tae Kim
+
+Distributed under the Eclipse Public License either version 1.0 or any later version.
