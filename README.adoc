@@ -10,12 +10,6 @@
   for the relationship between `debux` and `debux-stubs` libraries.
 
 
-## Prerequisites
-
-* clojure 1.8.0 or later
-* clojurescript 1.9.854 or later
-
-
 ## Installation
 
 * To include debux in your project for production, simply add the following to your
