@@ -12,8 +12,8 @@
 
 ## Installation
 
-* To include debux in your project for production, simply add the following to your
-  *project.clj* dependencies.
+* To include `debux-stubs` in your project, simply add the following to your *project.clj*
+  dependencies.
 
 [listing]
 ----
