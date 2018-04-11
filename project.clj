@@ -1,4 +1,4 @@
-(defproject philoskim/debux-stubs "0.4.6"
+(defproject philoskim/debux-stubs "0.4.7"
   :description "Debux-stubs library for production"
   :url "https://github.com/philoskim/debux-stubs"
   :license {"Eclipse Public License"
