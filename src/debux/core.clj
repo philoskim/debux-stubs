@@ -11,7 +11,7 @@
 ;;; debugging APIs
 (defmacro dbg [form & opts] form)
 (defmacro dbgn [form & opts] form)
-
+(defn dbg-prn [& args])
 
 ;;; macro registering APIs
 (defmacro register-macros! [macro-type symbols])
