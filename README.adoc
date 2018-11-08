@@ -17,7 +17,7 @@
 
 [listing]
 ----
-[philoskim/debux-stubs "0.5.1"]
+[philoskim/debux-stubs "0.5.2"]
 ----
 
 
