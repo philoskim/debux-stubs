@@ -12,6 +12,7 @@
 (defmacro dbg [form & opts] form)
 (defmacro dbgn [form & opts] form)
 (defn dbg-prn [& args])
+(defmacro dbg-last [& args] (last args))
 
 ;;; macro registering APIs
 (defmacro register-macros! [macro-type symbols])

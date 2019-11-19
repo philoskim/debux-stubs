@@ -13,9 +13,11 @@
 ;;; debugging APIs
 (defmacro dbg [form & opts] form)
 (defmacro dbgn [form & opts] form)
+(defmacro dbg-last [& args] (last args))
 
 (defmacro clog [form & opts] form)
 (defmacro clogn [form & opts] form)
+(defmacro clog-last [& args] (last args))
 
 (defmacro break [& opts])
 
