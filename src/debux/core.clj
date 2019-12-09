@@ -1,7 +1,7 @@
 (ns debux.core)
 
 ;;; config APIs
-(defn set-print-seq-length! [num])
+(defn set-print-length! [num])
 
 (defn set-debug-mode! [val])
 (defmacro set-ns-blacklist! [blacklist])

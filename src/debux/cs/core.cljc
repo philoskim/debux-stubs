@@ -3,7 +3,7 @@
 #?(:cljs (enable-console-print!))
 
 ;;; config APIS
-(defn set-print-seq-length! [num])
+(defn set-print-length! [num])
 
 (defn set-debug-mode! [val])
 (defmacro set-ns-blacklist! [blacklist])
