@@ -1,7 +1,5 @@
 (ns debux.cs.core)
 
-#?(:cljs (enable-console-print!))
-
 ;;; config APIS
 (defn set-print-length! [num])
 
