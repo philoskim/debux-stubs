@@ -20,6 +20,23 @@
 (defmacro break [& opts])
 
 
+;;; turn-off versions
+(defmacro dbg_ [form & opts] form)
+(defmacro dbgn_ [form & opts] form)
+(defmacro dbg-last_ [& args] (last args))
+
+(defmacro clog_ [form & opts] form)
+(defmacro clogn_ [form & opts] form)
+(defmacro clog-last_ [& args] (last args))
+
+(defmacro break_ [& opts])
+
+
+;;; tag literals
+(defn clog-tag [from] form)
+(defn clogn-tag [from] form)
+
+
 ;;; macro registering APIs
 (defmacro register-macros! [macro-type symbols])
 

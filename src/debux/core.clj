@@ -14,6 +14,19 @@
 (defn dbg-prn [& args])
 (defmacro dbg-last [& args] (last args))
 
+
+;;; turn-off versions
+(defmacro dbg_ [form & opts] form)
+(defmacro dbgn_ [form & opts] form)
+(defn dbg-prn_ [& args])
+(defmacro dbg-last_ [& args] (last args))
+
+
+;;; tag literals
+(defn dbg-tag [from] form)
+(defn dbg-tag [from] form)
+
+
 ;;; macro registering APIs
 (defmacro register-macros! [macro-type symbols])
 
