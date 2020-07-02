@@ -23,8 +23,8 @@
 
 
 ;;; tag literals
-(defn dbg-tag [from] form)
-(defn dbg-tag [from] form)
+(defn dbg-tag [form] form)
+(defn dbg-tag [form] form)
 
 
 ;;; macro registering APIs
