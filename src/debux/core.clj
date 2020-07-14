@@ -1,9 +1,11 @@
 (ns debux.core)
 
 ;;; config APIs
+(defn set-debug-mode! [val])
+(defn set-source-info-mode! [val])
+
 (defn set-print-length! [num])
 
-(defn set-debug-mode! [val])
 (defmacro set-ns-blacklist! [blacklist])
 (defmacro set-ns-whitelist! [whitelist])
 
