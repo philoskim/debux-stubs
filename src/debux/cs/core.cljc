@@ -35,8 +35,8 @@
 
 
 ;;; tag literals
-(defn clog-tag [from] form)
-(defn clogn-tag [from] form)
+(defn clog-tag [form] form)
+(defn clogn-tag [form] form)
 
 
 ;;; macro registering APIs
