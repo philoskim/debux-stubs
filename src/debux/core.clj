@@ -8,6 +8,7 @@
 
 (defmacro set-ns-blacklist! [blacklist])
 (defmacro set-ns-whitelist! [whitelist])
+(defmacro set-cljs-devtools! [bool])
 
 
 ;;; debugging APIs
