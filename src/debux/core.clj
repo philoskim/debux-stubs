@@ -2,13 +2,13 @@
 
 ;;; config APIs
 (defn set-debug-mode! [val])
+(defn set-debug-level! [level])
 (defn set-source-info-mode! [val])
-
 (defn set-print-length! [num])
+(defn set-line-bullet! [bulet])
 
 (defmacro set-ns-blacklist! [blacklist])
 (defmacro set-ns-whitelist! [whitelist])
-(defmacro set-cljs-devtools! [bool])
 
 
 ;;; debugging APIs
@@ -27,7 +27,7 @@
 
 ;;; tag literals
 (defn dbg-tag [form] form)
-(defn dbg-tag [form] form)
+(defn dbgn-tag [form] form)
 
 
 ;;; macro registering APIs

@@ -2,9 +2,11 @@
 
 ;;; config APIS
 (defn set-debug-mode! [val])
+(defn set-debug-level! [level])
 (defn set-source-info-mode! [val])
-
 (defn set-print-length! [num])
+(defn set-line-bullet! [bulet])
+(defn set-cljs-devtools! [bool])
 
 (defmacro set-ns-blacklist! [blacklist])
 (defmacro set-ns-whitelist! [whitelist])
