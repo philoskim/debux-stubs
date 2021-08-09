@@ -2,7 +2,6 @@
 
 ;;; config APIs
 (defn set-debug-mode! [val])
-(defn set-debug-level! [level])
 (defn set-source-info-mode! [val])
 (defn set-print-length! [num])
 (defn set-line-bullet! [bulet])
@@ -14,13 +13,18 @@
 ;;; debugging APIs
 (defmacro dbg [form & opts] form)
 (defmacro dbgn [form & opts] form)
+(defmacro dbgt [form & opts] form)
 (defn dbg-prn [& args])
 (defmacro dbg-last [& args] (last args))
 
+(defmacro with-level [debug-level & args]
+  `(when true ~@args))
 
 ;;; turn-off versions
 (defmacro dbg_ [form & opts] form)
 (defmacro dbgn_ [form & opts] form)
+(defmacro dbgt_ [form & opts] form)
+
 (defn dbg-prn_ [& args])
 (defmacro dbg-last_ [& args] (last args))
 
@@ -28,6 +32,7 @@
 ;;; tag literals
 (defn dbg-tag [form] form)
 (defn dbgn-tag [form] form)
+(defn dbgt-tag [form] form)
 
 
 ;;; macro registering APIs

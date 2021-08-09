@@ -1,0 +1,1 @@
+{:main examples.core, :preloads [examples.preload figwheel.connect], :asset-path "js/out", :output-to "resources/public/js/app.js", :output-dir "resources/public/js/out", :source-map true, :optimizations :none, :source-map-timestamp true, :external-config {:figwheel/config {:build-id "dev", :websocket-url "ws://localhost:3449/figwheel-ws"}}}
