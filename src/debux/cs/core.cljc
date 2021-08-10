@@ -23,7 +23,7 @@
 (defmacro clog-last [& args] (last args))
 
 (defmacro with-level [debug-level & args]
-  `(when true ~@args))
+  `(do ~@args))
 
 (defmacro break [& opts])
 

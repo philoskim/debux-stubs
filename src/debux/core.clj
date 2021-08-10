@@ -18,7 +18,7 @@
 (defmacro dbg-last [& args] (last args))
 
 (defmacro with-level [debug-level & args]
-  `(when true ~@args))
+  `(do ~@args))
 
 ;;; turn-off versions
 (defmacro dbg_ [form & opts] form)
