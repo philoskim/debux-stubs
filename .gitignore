@@ -5,13 +5,13 @@
 .lein-repl-history
 /pom.xml
 /pom.xml.asc
-figwheel_server.log
+.clj-kondo
+.lsp
+.shadow-cljs
 
-/example/target
-/example/resources/public/js
-/example/figwheel_server.log
-
-/resources/public/js/
+/examples/target
+/examples/node_modules
+/examples/resources/public/js
 
 *~
 *#
