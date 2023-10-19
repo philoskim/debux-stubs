@@ -1,8 +1,8 @@
 (defproject examples "0.1.0-SNAPSHOT"
-  :dependencies [[org.clojure/clojure "1.8.0"]
+  :dependencies [[org.clojure/clojure "1.10.0"]
                  [org.clojure/clojurescript "1.10.238"]
                  [org.clojure/core.async "0.3.465"]
-                 [philoskim/debux-stubs "0.8.3"]]
+                 [philoskim/debux-stubs "0.9.0"]]
   :source-paths ["src/clj" "src/cljc"]
   :main examples.core
   :clean-targets ^{:protect false}

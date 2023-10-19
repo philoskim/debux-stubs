@@ -8,6 +8,8 @@
 
 (defmacro set-ns-blacklist! [blacklist])
 (defmacro set-ns-whitelist! [whitelist])
+(defmacro set-tap-output! [bool])
+(defmacro set-date-time-fn! [date-time-fn])
 
 
 ;;; debugging APIs
